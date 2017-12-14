@@ -103,16 +103,19 @@ class Dashboard extends Component {
             nbNewOrders,
             nbPendingReviews,
             newCustomers,
-            pendingOrders,
-            pendingOrdersCustomers,
+            //pendingOrders,
+            //pendingOrdersCustomers,
             pendingReviews,
             pendingReviewsCustomers,
             revenue,
+
+            //   <PendingOrders orders={pendingOrders} customers={pendingOrdersCustomers} />
+            //   <NewCustomers nb={nbNewCustomers} visitors={newCustomers} />
         } = this.state;
         const { width } = this.props;
         return (
             <div>
-                {width === 1 && <AppBarMobile title="Posters Galore Admin" />}
+                {width === 1 && <AppBarMobile title="ShopKart" />}
                 <div style={styles.flex}>
                     <div style={styles.leftCol}>
                         <div style={styles.flex}>
@@ -120,13 +123,13 @@ class Dashboard extends Component {
                             <NbNewOrders value={nbNewOrders} />
                         </div>
                         <div style={styles.singleCol}>
-                            <PendingOrders orders={pendingOrders} customers={pendingOrdersCustomers} />
+                         
                         </div>
                     </div>
                     <div style={styles.rightCol}>
                         <div style={styles.flex}>
                             <PendingReviews nb={nbPendingReviews} reviews={pendingReviews} customers={pendingReviewsCustomers} />
-                            <NewCustomers nb={nbNewCustomers} visitors={newCustomers} />
+                           
                         </div>
                     </div>
                 </div>
