@@ -12,10 +12,10 @@ import restClient from '../restClient';
 
 const styles = {
     welcome: { marginBottom: '2em' },
-    flex: { display: 'flex' },
-    leftCol: { flex: 1, marginRight: '1em' },
-    rightCol: { flex: 1, marginLeft: '1em' },
-    singleCol: { marginTop: '2em' },
+    flex: { display: 'flex'},
+    leftCol: { flex: 0, marginRight: '1em' },
+    rightCol: { flex: 0, marginLeft: '1em' },
+    singleCol: { flex: 1, marginTop: '2em' }, 
 };
 
 class Dashboard extends Component {
