@@ -2,9 +2,9 @@ data = {
   "customers": [
     {
       "id": 0,
-      "first_name": "Bernice",
-      "last_name": "West",
-      "email": "comesug@leced.org",
+      "first_name": "Tar",
+      "last_name": "Heel",
+      "email": "tarheel@unc.edu",
       "address": null,
       "zipcode": null,
       "city": null,
@@ -352,33 +352,33 @@ data = {
   "reviews": [
     {
       "id": 0,
-      "date": "2017-01-10T21:01:55.209Z",
+      "date": "2017-12-14T21:01:55.209Z",
       "status": "accepted",
       "command_id": 0,
       "product_id": 1,
       "customer_id": 0,
-      "rating": 5,
-      "comment": "Your Mom."
+      "rating": 3,
+      "comment": "The shirt fit well, but it has already begun to wear out. Price is not bad though..."
     },
     {
       "id": 1,
-      "date": "2017-09-13T03:15:51.139Z",
+      "date": "2017-12-10T03:15:51.139Z",
       "status": "accepted",
       "command_id": 1,
-      "product_id": 2,
+      "product_id": 5,
       "customer_id": 1,
       "rating": 5,
-      "comment": "Your Dad."
+      "comment": "I bought these shoes as a gift for KMP, and he loved them! They were a reasonable price, too!"
     },
     {
       "id": 2,
-      "date": "2016-07-16T10:51:49.131Z",
+      "date": "2017-12-08T10:51:49.131Z",
       "status": "accepted",
       "command_id": 2,
       "product_id": 3,
       "customer_id": 2,
-      "rating": 5,
-      "comment": "Your Sister."
+      "rating": 4,
+      "comment": "I like these pants! Price could have been a little cheaper, but still definitely worth the buy!"
     }
   ],
   "settings": [

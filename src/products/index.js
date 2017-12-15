@@ -74,18 +74,14 @@ export const ProductCreate = (props) => (
 
 const ProductTitle = ({ record }) => <span>Poster #{record.reference}</span>;
 export const ProductEdit = (props) => (
-    <Edit {...props} title={<ProductTitle />}>
+    <Edit {...props} title="Product Information">
         <TabbedForm>
             <FormTab label="resources.products.tabs.image">
                 <Poster />
-                <TextInput source="image" options={{ fullWidth: true }} />
-                <TextInput source="thumbnail" options={{ fullWidth: true }} />
             </FormTab>
             <FormTab label="resources.products.tabs.details">
                 <TextInput source="reference" />
                 <NumberInput source="price" elStyle={{ width: '5em' }} />
-                <NumberInput source="width" style={{ display: 'inline-block' }} elStyle={{ width: '5em' }} />
-                <NumberInput source="height" style={{ display: 'inline-block', marginLeft: 32 }} elStyle={{ width: '5em' }} />
                 <ReferenceInput source="category_id" reference="categories">
                     <SelectInput source="name" />
                 </ReferenceInput>
@@ -101,7 +97,6 @@ export const ProductEdit = (props) => (
                         <CustomerReferenceField />
                         <StarRatingField />
                         <TextField source="comment" style={{ maxWidth: '20em', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }} />
-                        <TextField source="status" />
                         <EditButton />
                     </Datagrid>
                 </ReferenceManyField>
