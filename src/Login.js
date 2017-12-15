@@ -103,6 +103,9 @@ class Login extends Component {
                             <CardActions>
                                 <RaisedButton type="submit" primary disabled={submitting} label={translate('aor.auth.sign_in')} fullWidth />
                             </CardActions>
+                            <CardActions>
+                                <RaisedButton type="submit" primary disabled={submitting} label={translate('Sign Up')} fullWidth />
+                            </CardActions>
                         </form>
                     </Card>
                     <Notification />

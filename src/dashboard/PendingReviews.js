@@ -10,8 +10,8 @@ import StarRatingField from '../reviews/StarRatingField';
 
 const styles = {
     titleLink: { textDecoration: 'none', color: '#000' },
-    card: { borderLeft: 'solid 4px #f44336', flex: 1, marginRight: '1em' },
-    icon: { float: 'right', width: 64, height: 64, padding: 16, color: '#f44336' },
+    card: { borderLeft: 'solid 4px #f44336', flex: 1, marginRight: '1em'},
+    icon: { float: 'right', width: 256, height: 252, padding: 16, color: '#f44336' },
 };
 
 const location = { pathname: 'reviews', query: { filter: JSON.stringify({ status: 'pending' }) } };

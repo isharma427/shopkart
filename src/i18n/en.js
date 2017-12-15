@@ -11,7 +11,7 @@ export default {
         dashboard: {
             monthly_revenue: 'Budget',
             new_orders: 'New Orders',
-            pending_reviews: 'Pending Reviews',
+            pending_reviews: 'Reviews',
             new_customers: 'New Customers',
             pending_orders: 'Pending Orders',
             order: {
