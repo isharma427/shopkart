@@ -10,7 +10,7 @@ export default {
         },
         dashboard: {
             monthly_revenue: 'Budget',
-            new_orders: 'New Orders',
+            new_orders: 'Items in Cart',
             pending_reviews: 'Reviews',
             new_customers: 'New Customers',
             pending_orders: 'Pending Orders',
